@@ -1,5 +1,6 @@
 package com.prantokm.chatapp
 
+import android.content.Intent
 import android.os.Bundle
 import android.view.Menu
 import android.view.View
@@ -53,7 +54,8 @@ class MainActivity : AppCompatActivity() {
         return navController.navigateUp(appBarConfiguration) || super.onSupportNavigateUp()
     }
     fun loginBtnNavClicked(view: View){
-
+        val loginIntent = Intent(this, LoginActivity::class.java)
+        startActivity(loginIntent)
     }
     fun addChannelClicked(view: View){
 
@@ -61,4 +63,5 @@ class MainActivity : AppCompatActivity() {
     fun sendMessageBtnClicked(view: View){
 
     }
+
 }
