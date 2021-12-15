@@ -1,9 +1,10 @@
-package com.prantokm.chatapp
+package com.prantokm.chatapp.Controller
 
 import android.graphics.Color
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
+import com.prantokm.chatapp.R
 import kotlinx.android.synthetic.main.activity_create_user.*
 import java.util.*
 

@@ -9,13 +9,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ChatApp">
         <activity
-            android:name=".CreateUserActivity"
+            android:name=".Controller.CreateUserActivity"
             android:exported="false" />
         <activity
-            android:name=".LoginActivity"
+            android:name=".Controller.LoginActivity"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".Controller.MainActivity"
             android:exported="true"
             android:label="@string/app_name"
             android:theme="@style/Theme.ChatApp.NoActionBar">
